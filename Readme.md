@@ -7,6 +7,7 @@ Ce dépôt contient un cours complet sur SQL, allant des bases aux concepts avan
 2. [Commandes SQL](./2-Commands/)
     - Langage de Manipulation des Données (LMD)
     - Langage de Définition des Données (LDD)
+    - Différence entre LMD et LDD
 3. [Fonctions et Triggers](./3-Functions-and-Triggers/)
 4. [Exercices Pratiques](./4-Exercises/)
 
