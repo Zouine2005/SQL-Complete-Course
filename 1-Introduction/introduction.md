@@ -143,26 +143,15 @@ COMMIT;    -- Confirme les modifications
 ROLLBACK;  -- Annule les modifications
 ```
 
-## 9. Procédures Stockées
+## 9. Sécurité et Index
 
-```sql
-DELIMITER $$
-CREATE PROCEDURE AjouterAdherent(IN nom VARCHAR(100), IN prenom VARCHAR(100))
-BEGIN
-    INSERT INTO Adherents (nom, prenom, date_inscription) VALUES (nom, prenom, CURDATE());
-END$$
-DELIMITER ;
-```
-
-## 10. Sécurité et Index
-
-### 10.1. Indexation
+### 9.1. Indexation
 Améliore la performance des requêtes.
 ```sql
 CREATE INDEX idx_nom ON NomTable(nom);
 ```
 
-### 10.2. Droits d’accès
+### 9.2. Droits d’accès
 ```sql
 GRANT SELECT, INSERT ON NomBase.* TO 'utilisateur'@'localhost' IDENTIFIED BY 'motdepasse';
 ```
