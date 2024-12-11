@@ -47,7 +47,7 @@ CREATE TABLE NomTable (
 ### 4.3. Insertion de données
 ```sql
 INSERT INTO NomTable (nom, date_naissance)
-VALUES ('Zouine', '1980-05-15');
+VALUES ('zoro', '2005-05-15');
 ```
 
 ### 4.4. Lecture de données
@@ -59,7 +59,7 @@ SELECT nom, date_naissance FROM NomTable;   -- Colonnes spécifiques
 ### 4.5. Mise à jour de données
 ```sql
 UPDATE NomTable
-SET nom = 'Zouine'
+SET nom = 'zoro'
 WHERE id = 1;
 ```
 
@@ -72,7 +72,7 @@ DELETE FROM NomTable WHERE id = 1;
 
 ### 5.1. Filtres avec WHERE
 ```sql
-SELECT * FROM NomTable WHERE nom = 'Zouine';
+SELECT * FROM NomTable WHERE nom = 'zoro';
 ```
 
 ### 5.2. Opérateurs
