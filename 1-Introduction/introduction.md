@@ -59,7 +59,7 @@ SELECT nom, date_naissance FROM NomTable;   -- Colonnes spécifiques
 ### 4.5. Mise à jour de données
 ```sql
 UPDATE NomTable
-SET nom = 'Jean Martin'
+SET nom = 'Zouine'
 WHERE id = 1;
 ```
 
