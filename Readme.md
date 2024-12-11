@@ -10,7 +10,7 @@ Ce dépôt contient un cours complet sur SQL, allant des bases aux concepts avan
     - Différence entre LMD et LDD
 3. [Jointures](./3-Jointures/jointures.md)
 4. [Fonctions, Procédures Stockées et Triggers](./4-Functions_ProcéduresStockées_Triggers/)
-5. [Exercices Pratiques](./4-Exercises/)
+5. [Exercices Pratiques](./5-Exercises/)
 
 ## 🚀 Objectifs
 - Maîtriser les bases de SQL.
