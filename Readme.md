@@ -11,6 +11,7 @@ Ce dépôt contient un cours complet sur SQL, allant des bases aux concepts avan
 3. [Jointures](./3-Jointures/jointures.md)
 4. [Fonctions, Procédures Stockées et Triggers](./4-Functions_ProcéduresStockées_Triggers/)
 5. [Exercices Pratiques](./5-Exercises/)
+6. [Corrections](./6-Corrections/)
 
 ## 🚀 Objectifs
 - Maîtriser les bases de SQL.
