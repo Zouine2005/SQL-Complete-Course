@@ -47,7 +47,7 @@ CREATE TABLE NomTable (
 ### 4.3. Insertion de données
 ```sql
 INSERT INTO NomTable (nom, date_naissance)
-VALUES ('zoro', '2005-05-15');
+VALUES ('zouine', '2005-05-15');
 ```
 
 ### 4.4. Lecture de données
